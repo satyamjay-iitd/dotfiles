@@ -1,0 +1,4 @@
+theme = "curzon"
+
+[editor]
+true-color = true
