@@ -1,4 +1,17 @@
-theme = "curzon"
+theme = "ayu_evolve"
 
 [editor]
 true-color = true
+line-number = "relative"
+mouse = false
+
+[editor.cursor-shape]
+insert = "bar"
+normal = "block"
+select = "underline"
+
+[editor.file-picker]
+hidden = false
+
+[keys.normal.space]
+e = ":sh zellij run -fc -- yazi"

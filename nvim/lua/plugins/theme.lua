@@ -1,9 +1,55 @@
 return {
   {
+    "folke/tokyonight.nvim",
+    lazy = true,
+    opts = { style = "storm" },
+  },
+  {
+    "rebelot/kanagawa.nvim",
+    lazy = true,
+    opts = {
+      compile = false, -- enable compiling the colorscheme
+      undercurl = true, -- enable undercurls
+      commentStyle = { italic = true },
+      functionStyle = {},
+      keywordStyle = { italic = true },
+      statementStyle = { bold = true },
+      typeStyle = {},
+      transparent = false, -- do not set background color
+      dimInactive = false, -- dim inactive window `:h hl-NormalNC`
+      terminalColors = true, -- define vim.g.terminal_color_{0,17}
+      colors = { -- add/modify theme and palette colors
+        palette = {},
+        theme = { wave = {}, lotus = {}, dragon = {}, all = {} },
+      },
+      overrides = function(colors) -- add/modify highlights
+        return {}
+      end,
+      theme = "wave", -- Load "wave" theme when 'background' option is not set
+      background = { -- map the value of 'background' option to a theme
+        dark = "wave", -- try "dragon" !
+        light = "lotus",
+      },
+    },
+  },
+  {
     "catppuccin/nvim",
     lazy = true,
     name = "catppuccin",
     opts = {
+      flavour = "mocha",
+      styles = {
+        comments = { "italic" },
+        conditionals = { "italic" },
+      },
+      transparent_background = false,
+      color_overrides = {
+        mocha = {
+          base = "#000000",
+          mantle = "#000000",
+          crust = "#000000",
+        },
+      },
       integrations = {
         aerial = true,
         alpha = true,
@@ -45,7 +91,7 @@ return {
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "catppuccin",
+      colorscheme = "kanagawa",
     },
   },
 }
