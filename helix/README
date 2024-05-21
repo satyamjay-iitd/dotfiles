@@ -1,0 +1,5 @@
+## Installing python-lsps for helix
+
+1. pyright (npm)
+2. ruff    (pip/ `sudo apt install black`)
+3. black   (pip/ `sudo snap install --classic ruff`)
