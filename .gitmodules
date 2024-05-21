@@ -7,3 +7,6 @@
 [submodule "ohmyzsh-custom/themes/powerlevel10k"]
 	path = ohmyzsh-custom/themes/powerlevel10k
 	url = https://github.com/romkatv/powerlevel10k.git
+[submodule "pokemon-colorscripts"]
+	path = pokemon-colorscripts
+	url = https://gitlab.com/phoneybadger/pokemon-colorscripts.git
