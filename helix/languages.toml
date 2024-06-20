@@ -14,3 +14,17 @@ args = ["--ignore", "E501"]
 [language.formatter]
 command = "black"
 args = ["--line-length", "88", "--quiet", "-"]
+
+
+[[language]]
+name = "markdown"
+language-servers = [ "marksman" ]
+
+
+[[language]]
+name = "latex"
+# config = { texlab = { build = { onSave = true, forwardSearchAfter = true }, forwardSearch = { executable = "zathura", args = [ "--synctex-forward", "%l:1:%f", "%p" ] }, chktex = { onEdit = true } } } }
+
+[language-server.texlab.config.texlab.build]
+args = ["-shell-escape", "-pdf", "-interaction=nonstopmode", "-synctex=1", "%f"]
+onSave = true

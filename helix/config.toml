@@ -4,6 +4,13 @@ theme = "ayu_evolve"
 true-color = true
 line-number = "relative"
 mouse = false
+color-modes = true
+auto-pairs = false
+gutters = ["diff", "line-numbers"]
+bufferline = "never"
+
+[editor.statusline]
+right = ["diagnostics", "selections", "register", "position", "file-encoding", "version-control"]
 
 [editor.cursor-shape]
 insert = "bar"
@@ -13,5 +20,9 @@ select = "underline"
 [editor.file-picker]
 hidden = false
 
+[editor.lsp]
+display-inlay-hints = false
+
 [keys.normal.space]
 e = ":sh zellij run -fc -- yazi"
+
