@@ -5,7 +5,7 @@ true-color = true
 line-number = "relative"
 mouse = false
 color-modes = true
-auto-pairs = false
+auto-pairs = true
 gutters = ["diff", "line-numbers"]
 bufferline = "never"
 
