@@ -1,0 +1,10 @@
+layout tall
+
+cd ~/dev/crabstore/
+
+launch --title ide hx
+
+new_tab runner
+cd ~/dev/crabstore/
+launch zsh
+launch zsh

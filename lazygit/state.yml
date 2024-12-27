@@ -1,7 +1,29 @@
-lastupdatecheck: 0
+lastupdatecheck: 1732713561
 recentrepos:
-- /home/satyamj/popper
+    - /home/satyam/.config
+    - /home/satyam/dev/reconf2
+    - /home/satyam/dev/satyamjay-iitd.github.io
+    - /home/satyam/dev/reconfig
+    - /home/satyam/dev/otlp-logger
+    - /home/satyam/dev/range_map_vec
+    - /home/satyam/dev/streaming-harness
+    - /home/satyam/dev/col733-cloud
+    - /home/satyam/dev/col733
+    - /home/satyam/dev/video-analytics-prop
+    - /home/satyam/dev/crabstore
+    - /home/satyam/dev/dlmalloc-rs
+    - /home/satyam/dev/bayou
+    - /home/satyam/dev/lab-website
 startuppopupversion: 5
-customcommandshistory: []
+lastversion: 0.44.1
+customcommandshistory:
+    - q
+    - w
 hidecommandlog: false
 ignorewhitespaceindiffview: false
+diffcontextsize: 3
+renamesimilaritythreshold: 50
+localbranchsortorder: recency
+remotebranchsortorder: alphabetical
+gitlogorder: topo-order
+gitlogshowgraph: always

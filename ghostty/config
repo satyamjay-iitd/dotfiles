@@ -1,0 +1,16 @@
+font-size = 14
+quit-after-last-window-closed = true
+gtk-titlebar = true
+gtk-tabs-location = bottom
+gtk-wide-tabs = false
+window-decoration = false
+fullscreen = false
+theme = "Argonaut"
+window-padding-x = 0
+window-padding-y = 0
+window-padding-color = extend
+
+keybind = ctrl+shift+r=reload_config
+keybind = ctrl+shift+l=next_tab
+keybind = ctrl+shift+h=previous_tab
+keybind = ctrl+shift+f=write_screen_file:open

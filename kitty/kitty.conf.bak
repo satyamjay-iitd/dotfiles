@@ -2520,6 +2520,6 @@ map kitty_mod+right next_layout
 
 
 # BEGIN_KITTY_THEME
-# Wez
+# Atom
 include current-theme.conf
 # END_KITTY_THEME

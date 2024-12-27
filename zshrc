@@ -10,6 +10,8 @@ fi
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 export PATH=$PATH:~/.cargo/bin/
+export PATH=$PATH:~/Downloads/ltex-ls-16.0.0/bin/
+export PATH=$PATH:~/Downloads/apache-maven-3.9.9/bin/
 
 export ZSH_CUSTOM="$HOME/.config/ohmyzsh-custom"
 # Path to your oh-my-zsh installation.
@@ -91,8 +93,8 @@ plugins=(
 )
 
 # PROXY
-export no_proxy=localhost,127.0.0.1
-export NO_PROXY=localhost,127.0.0.1
+export no_proxy=localhost,127.0.0.1,10.237.23.243
+export NO_PROXY=localhost,127.0.0.1,10.237.23.243
 export http_proxy=http://10.10.78.61:3128
 export ftp_proxy=http://10.10.78.61:3128
 export https_proxy=http://10.10.78.61:3128
@@ -138,6 +140,7 @@ export LANG="en_US.UTF-8"
 export EDITOR=hx
 alias mux=tmuxinator
 
+export TERMINAL=ghostty
 # Make Tmux Behave
 # export LANG="en_IN UTF-8"
 
